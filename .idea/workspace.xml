@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6a49f21-5c0b-43b8-a018-497e86c7e7ee" name="Default Changelist" comment="" />
+    <list default="true" id="e6a49f21-5c0b-43b8-a018-497e86c7e7ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mockito/Callback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mockito/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mockito/Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mockito/WebService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mockito/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mockito/WebServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mockito/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mockito/Add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mockito/ValidNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mockito/ValidNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mockito/AddMockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mockito/AddMockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mockito/ValidNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mockito/ValidNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mockito/Add.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mockito/Add.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mockito/ValidNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mockito/ValidNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mockito/AddMockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mockito/AddMockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mockito/ValidNumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mockito/ValidNumberTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,10 +27,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -23,6 +44,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1utXr9dtPixe69DOpkh8clWSIFJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,10 +52,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../tenant-suite" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -47,8 +71,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AddMockTest.addMockExceptionTest">
-    <configuration name="AddCreateTest1.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LoginTest.doLoginCaptorTest">
+    <configuration name="LoginTest.doLoginCaptorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.example.unittest" />
       <extension name="coverage">
         <pattern>
@@ -57,14 +81,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="mockito" />
-      <option name="MAIN_CLASS_NAME" value="mockito.AddCreateTest1" />
-      <option name="METHOD_NAME" value="addTest" />
+      <option name="MAIN_CLASS_NAME" value="mockito.LoginTest" />
+      <option name="METHOD_NAME" value="doLoginCaptorTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddCreateTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.doLoginErrorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.example.unittest" />
       <extension name="coverage">
         <pattern>
@@ -73,29 +97,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="mockito" />
-      <option name="MAIN_CLASS_NAME" value="mockito.AddCreateTest2" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddMockTest.addMockExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.example.unittest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mockito.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mockito" />
-      <option name="MAIN_CLASS_NAME" value="mockito.AddMockTest" />
-      <option name="METHOD_NAME" value="addMockExceptionTest" />
+      <option name="MAIN_CLASS_NAME" value="mockito.LoginTest" />
+      <option name="METHOD_NAME" value="doLoginErrorTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddMockTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.doLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.example.unittest" />
       <extension name="coverage">
         <pattern>
@@ -104,14 +113,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="mockito" />
-      <option name="MAIN_CLASS_NAME" value="mockito.AddMockTest" />
-      <option name="METHOD_NAME" value="addTest" />
+      <option name="MAIN_CLASS_NAME" value="mockito.LoginTest" />
+      <option name="METHOD_NAME" value="doLoginTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WebServiceTest.loginErrorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.example.unittest" />
       <extension name="coverage">
         <pattern>
@@ -120,19 +129,36 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="mockito" />
-      <option name="MAIN_CLASS_NAME" value="mockito.ValidNumberTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="mockito.WebServiceTest" />
+      <option name="METHOD_NAME" value="loginErrorTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebServiceTest.loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.example.unittest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mockito.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mockito" />
+      <option name="MAIN_CLASS_NAME" value="mockito.WebServiceTest" />
+      <option name="METHOD_NAME" value="loginTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AddMockTest.addMockExceptionTest" />
-        <item itemvalue="JUnit.ValidNumberTest" />
-        <item itemvalue="JUnit.AddMockTest.addTest" />
-        <item itemvalue="JUnit.AddCreateTest2" />
-        <item itemvalue="JUnit.AddCreateTest1.addTest" />
+        <item itemvalue="JUnit.LoginTest.doLoginCaptorTest" />
+        <item itemvalue="JUnit.LoginTest.doLoginErrorTest" />
+        <item itemvalue="JUnit.LoginTest.doLoginTest" />
+        <item itemvalue="JUnit.WebServiceTest.loginErrorTest" />
+        <item itemvalue="JUnit.WebServiceTest.loginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +172,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625486054835</updated>
-      <workItem from="1625486056618" duration="14561000" />
+      <workItem from="1625486056618" duration="29013000" />
     </task>
     <servers />
   </component>
@@ -158,25 +184,49 @@
       <screen x="0" y="0" width="1920" height="999" />
     </state>
     <state x="552" y="158" key="#Project_Structure/-2560.0.1280.760/0.0.1920.999@0.0.1920.999" timestamp="1625495151288" />
-    <state width="1878" height="347" key="GridCell.Tab.0.bottom" timestamp="1625504265218">
+    <state x="-2139" y="115" key="FileChooserDialogImpl" timestamp="1625575351594">
+      <screen x="-2560" y="0" width="1280" height="760" />
+    </state>
+    <state x="-2139" y="115" key="FileChooserDialogImpl/-2560.0.1280.760/0.0.1920.999@-2560.0.1280.760" timestamp="1625575351594" />
+    <state width="1238" height="229" key="GridCell.Tab.0.bottom" timestamp="1625588588143">
+      <screen x="-2560" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="229" key="GridCell.Tab.0.bottom/-2560.0.1280.760/0.0.1920.999@-2560.0.1280.760" timestamp="1625588588143" />
+    <state width="1877" height="239" key="GridCell.Tab.0.bottom/-2560.0.1280.760/0.0.1920.999@0.0.1920.999" timestamp="1625587564172" />
+    <state width="1238" height="229" key="GridCell.Tab.0.center" timestamp="1625588588143">
+      <screen x="-2560" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="229" key="GridCell.Tab.0.center/-2560.0.1280.760/0.0.1920.999@-2560.0.1280.760" timestamp="1625588588143" />
+    <state width="1877" height="239" key="GridCell.Tab.0.center/-2560.0.1280.760/0.0.1920.999@0.0.1920.999" timestamp="1625587564172" />
+    <state width="1238" height="229" key="GridCell.Tab.0.left" timestamp="1625588588143">
+      <screen x="-2560" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="229" key="GridCell.Tab.0.left/-2560.0.1280.760/0.0.1920.999@-2560.0.1280.760" timestamp="1625588588143" />
+    <state width="1877" height="239" key="GridCell.Tab.0.left/-2560.0.1280.760/0.0.1920.999@0.0.1920.999" timestamp="1625587564172" />
+    <state width="1238" height="229" key="GridCell.Tab.0.right" timestamp="1625588588143">
+      <screen x="-2560" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="229" key="GridCell.Tab.0.right/-2560.0.1280.760/0.0.1920.999@-2560.0.1280.760" timestamp="1625588588143" />
+    <state width="1877" height="239" key="GridCell.Tab.0.right/-2560.0.1280.760/0.0.1920.999@0.0.1920.999" timestamp="1625587564172" />
+    <state width="1877" height="331" key="GridCell.Tab.1.bottom" timestamp="1625585509303">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
-    <state width="1878" height="347" key="GridCell.Tab.0.bottom/-2560.0.1280.760/0.0.1920.999@0.0.1920.999" timestamp="1625504265218" />
-    <state width="1878" height="347" key="GridCell.Tab.0.center" timestamp="1625504265218">
+    <state width="1877" height="331" key="GridCell.Tab.1.bottom/-2560.0.1280.760/0.0.1920.999@0.0.1920.999" timestamp="1625585509303" />
+    <state width="1877" height="331" key="GridCell.Tab.1.center" timestamp="1625585509303">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
-    <state width="1878" height="347" key="GridCell.Tab.0.center/-2560.0.1280.760/0.0.1920.999@0.0.1920.999" timestamp="1625504265218" />
-    <state width="1878" height="347" key="GridCell.Tab.0.left" timestamp="1625504265218">
+    <state width="1877" height="331" key="GridCell.Tab.1.center/-2560.0.1280.760/0.0.1920.999@0.0.1920.999" timestamp="1625585509303" />
+    <state width="1877" height="331" key="GridCell.Tab.1.left" timestamp="1625585509303">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
-    <state width="1878" height="347" key="GridCell.Tab.0.left/-2560.0.1280.760/0.0.1920.999@0.0.1920.999" timestamp="1625504265218" />
-    <state width="1878" height="347" key="GridCell.Tab.0.right" timestamp="1625504265218">
+    <state width="1877" height="331" key="GridCell.Tab.1.left/-2560.0.1280.760/0.0.1920.999@0.0.1920.999" timestamp="1625585509303" />
+    <state width="1877" height="331" key="GridCell.Tab.1.right" timestamp="1625585509303">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
-    <state width="1878" height="347" key="GridCell.Tab.0.right/-2560.0.1280.760/0.0.1920.999@0.0.1920.999" timestamp="1625504265218" />
-    <state x="731" y="218" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1625500830453">
+    <state width="1877" height="331" key="GridCell.Tab.1.right/-2560.0.1280.760/0.0.1920.999@0.0.1920.999" timestamp="1625585509303" />
+    <state x="731" y="218" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1625586193833">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
-    <state x="731" y="218" key="com.intellij.testIntegration.createTest.CreateTestDialog/-2560.0.1280.760/0.0.1920.999@0.0.1920.999" timestamp="1625500830453" />
+    <state x="731" y="218" key="com.intellij.testIntegration.createTest.CreateTestDialog/-2560.0.1280.760/0.0.1920.999@0.0.1920.999" timestamp="1625586193833" />
   </component>
 </project>

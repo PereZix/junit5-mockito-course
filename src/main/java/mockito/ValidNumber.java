@@ -29,4 +29,12 @@ public class ValidNumber {
             return false;
         }
     }
+
+    public int doubleToInt(Object obj){
+        if (obj instanceof Double){
+            return ((Double) obj).intValue();
+        }else{
+            return 0;
+        }
+    }
 }
